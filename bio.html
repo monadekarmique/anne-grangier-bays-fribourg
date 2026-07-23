@@ -7,7 +7,7 @@
 <meta name="description" content="Anne Grangier, praticienne certifiée ST5 de la méthode SVLBH (svlbh.com). Décodage transgénérationnel et chromothérapie pleine bande en Suisse romande — libération des mémoires héritées, régénération vibratoire." />
 <meta property="og:title" content="Anne Grangier — Chromothérapie pleine bande, Chromothérapie classique & Décodage transgénérationnel" />
 <meta property="og:description" content="Comprendre et libérer les schémas qui se répètent — décodage transgénérationnel & chromothérapie, en Suisse romande." />
-<meta property="og:image" content="https://[à compléter — domaine custom]/assets/portrait.jpg" />
+<meta property="og:image" content="https://anne-grangier-bays-fribourg.onrender.com/assets/portrait.jpg" />
 <meta name="theme-color" content="#46213f" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -55,18 +55,18 @@
     <div class="pills">
       <span class="pill">Certifiée ST5 SVLBH</span><span class="pill">Suisse romande</span>
     </div>
-    <a href="https://svlbh.com" target="_blank" rel="noopener" aria-label="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH (ST5 · MyShamanFamily PRO)"><img src="assets/badge-svlbh.svg" alt="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH (ST5 · MyShamanFamily PRO)" width="150" loading="lazy" style="display:block;margin:16px auto 0;max-width:150px" /></a>
+    <a href="https://svlbh.com" target="_blank" rel="noopener" aria-label="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH MyShamanFamily"><img src="assets/badge-svlbh.svg" alt="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH MyShamanFamily" width="150" loading="lazy" style="display:block;margin:16px auto 0;max-width:150px" /></a>
 
     <nav class="links" id="links"></nav>
 
     <footer>
       Praticienne certifiée ST5 · MyShamanFamily PRO — méthode SVLBH (svlbh.com), depuis juin 2025<br>
-      <a href="https://www.instagram.com/annegr29/" target="_blank" rel="noopener">@annegr29</a>
+      <a href="https://www.instagram.com/annegr29/" target="_blank" rel="noopener">@annegr29</a> · <a href="https://svlbh.com" target="_blank" rel="noopener">svlbh.com</a>
     </footer>
   </main>
 
 <script>
-  var VITRINE = "https://[à compléter — domaine custom]/";
+  var VITRINE = "https://anne-grangier-bays-fribourg.onrender.com/";
   var WA  = "41786297719";
   var TEL = "+41 78 629 77 19";
   var IG  = "annegr29";
@@ -76,11 +76,11 @@
   function v(url){ return url + (url.indexOf('?')>-1 ? '&' : '?') + UTM; }
 
   function resolveHref(kw){
+    if(kw.indexOf('vitrine#') === 0) return v(VITRINE + kw.slice(7)); /* vitrine#<ancre> → https://<domain>/#<ancre> */
     switch(kw){
       case 'whatsapp':     return 'https://wa.me/'+WA+'?text='+waText;
       case 'vitrine':      return v(VITRINE);
       case 'parcours':     return v(VITRINE+'parcours.html');
-      case 'vitrine#cours':return v(VITRINE+'#cours');
       case 'instagram':    return 'https://www.instagram.com/'+IG+'/';
       case 'phone':        return 'tel:'+TEL;
       default:             return kw;
@@ -99,8 +99,8 @@
   var ITEMS = [
     { cls:'primary', ic:'wa', b:"Écrire « oui »", s:"Réponse directe sur WhatsApp", href:resolveHref('whatsapp') },
     { cls:'', ic:'site', b:"Mes accompagnements", s:"Cercle Sur-Âme & séances", href:resolveHref('vitrine') },
-    { cls:'', ic:'heart', b:"Mon histoire", s:"[à compléter]", href:resolveHref('vitrine#histoire') },
-    { cls:'', ic:'ig', b:"Instagram", s:"[à compléter]", href:resolveHref('instagram') },
+    { cls:'', ic:'heart', b:"Mon histoire", s:"Après 20 ans dans le droit, un autre appel", href:resolveHref('vitrine#mon-histoire') },
+    { cls:'', ic:'ig', b:"Instagram", s:"@annegr29", href:resolveHref('instagram') },
     
   ];
 

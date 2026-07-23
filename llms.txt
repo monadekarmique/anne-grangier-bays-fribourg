@@ -5,9 +5,9 @@
 Anne Grangier — Praticienne certifiée ST5 · MyShamanFamily PRO — méthode SVLBH (svlbh.com), depuis juin 2025. Chromothérapie pleine bande · Chromothérapie classique · Décodage transgénérationnel. Comprendre et libérer les schémas qui se répètent — décodage transgénérationnel & chromothérapie, en Suisse romande.
 
 ## Pages
-- [Accueil](https://[à compléter — domaine custom]/) : présentation, pratique et contacts
-- [Mon parcours](https://[à compléter — domaine custom]/parcours.html) : témoignage personnel de Anne Grangier
-- [Lien bio](https://[à compléter — domaine custom]/bio.html) : page de liens (réservation, cours, parcours, Instagram)
+- [Accueil](https://anne-grangier-bays-fribourg.onrender.com/) : présentation, pratique et contacts
+- [Mon parcours](https://anne-grangier-bays-fribourg.onrender.com/parcours.html) : témoignage personnel de Anne Grangier
+- [Lien bio](https://anne-grangier-bays-fribourg.onrender.com/bio.html) : page de liens (réservation, cours, parcours, Instagram)
 
 ## Contact
 - WhatsApp : +41 78 629 77 19

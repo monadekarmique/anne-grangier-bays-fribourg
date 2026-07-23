@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Anne Grangier — Chromothérapie pleine bande, Chromothérapie classique & Décodage transgénérationnel · Fribourg</title>
 <meta name="description" content="Anne Grangier, praticienne certifiée ST5 de la méthode SVLBH (svlbh.com). Décodage transgénérationnel et chromothérapie pleine bande en Suisse romande — libération des mémoires héritées, régénération vibratoire." />
-<link rel="canonical" href="https://[à compléter — domaine custom]/" />
+<link rel="canonical" href="https://anne-grangier-bays-fribourg.onrender.com/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Anne Grangier — Chromothérapie pleine bande, Chromothérapie classique & Décodage transgénérationnel" />
 <meta property="og:description" content="Comprendre et libérer les schémas qui se répètent — décodage transgénérationnel & chromothérapie, en Suisse romande." />
-<meta property="og:url" content="https://[à compléter — domaine custom]/" />
-<meta property="og:image" content="https://[à compléter — domaine custom]/assets/portrait.jpg" />
+<meta property="og:url" content="https://anne-grangier-bays-fribourg.onrender.com/" />
+<meta property="og:image" content="https://anne-grangier-bays-fribourg.onrender.com/assets/portrait.jpg" />
 <meta name="theme-color" content="#3a1a35" />
 
 <!-- MESURE cookieless (à activer avec le domaine final + compte Plausible) -->
@@ -26,8 +26,8 @@
   "@type": "HealthAndBeautyBusiness",
   "name": "Anne Grangier — Chromothérapie pleine bande, Chromothérapie classique & Décodage transgénérationnel",
   "description": "Anne Grangier, praticienne certifiée ST5 de la méthode SVLBH (svlbh.com). Décodage transgénérationnel et chromothérapie pleine bande en Suisse romande — libération des mémoires héritées, régénération vibratoire.",
-  "image": "https://[à compléter — domaine custom]/assets/portrait.jpg",
-  "url": "https://[à compléter — domaine custom]/",
+  "image": "https://anne-grangier-bays-fribourg.onrender.com/assets/portrait.jpg",
+  "url": "https://anne-grangier-bays-fribourg.onrender.com/",
   "telephone": "+41 78 629 77 19",
   "areaServed": [
     { "@type": "Place", "name": "Fribourg" },
@@ -35,7 +35,7 @@
     { "@type": "Place", "name": "Fribourg" }
   ],
   "address": { "@type": "PostalAddress", "addressLocality": "Fribourg", "addressRegion": "Fribourg", "addressCountry": "CH" },
-  "sameAs": ["https://www.instagram.com/annegr29/"],
+  "sameAs": ["https://svlbh.com", "https://www.instagram.com/annegr29/"],
   "knowsLanguage": "fr"
 }
 </script>
@@ -101,6 +101,16 @@
   .step .v{font-family:var(--serif);font-size:1.5rem;color:var(--brass);font-weight:600}
   .step b{display:block;margin-top:.35rem;color:var(--forest)}
   .step small{color:var(--ink-soft)}
+  .stages .stagerows{display:flex;flex-direction:column;gap:12px;margin-top:30px}
+  .stages .stagerow{display:flex;align-items:center;gap:18px;background:#fff;border:1px solid var(--line);border-left:3px solid var(--brass);border-radius:12px;padding:16px 20px;text-decoration:none;color:var(--ink);transition:transform .15s ease,box-shadow .15s ease}
+  .stages .stagerow:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(43,28,58,.10)}
+  .stages .stg-n{font-family:var(--serif);font-weight:600;color:var(--brass);font-size:1.05rem;min-width:46px}
+  .stages .stg-body{flex:1;display:flex;flex-direction:column;gap:.12rem}
+  .stages .stg-body b{color:var(--forest);font-size:1.05rem}
+  .stages .stg-body small{color:var(--ink-soft);font-size:.95rem}
+  .stages .stg-app{color:var(--accent-text);font-size:.78rem;font-style:normal;margin-top:.25rem;letter-spacing:.03em;text-transform:uppercase}
+  .stages .stg-go{color:var(--brass);font-weight:600;font-size:.9rem;white-space:nowrap}
+  @media(max-width:600px){ .stages .stagerow{flex-wrap:wrap;gap:8px} .stages .stg-go{width:100%} }
 
   .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,48px);align-items:center}
   .info{display:flex;flex-direction:column;gap:14px;margin-top:24px}
@@ -156,6 +166,32 @@
   footer{background:var(--forest-2);color:rgba(242,234,221,.72);font-size:.86rem;text-align:center;padding:30px 22px;line-height:1.7}
   footer a{color:var(--brass-2);text-decoration:none}
 
+  /* App compagnon (section optionnelle générique) */
+  .app-features{list-style:none;display:flex;flex-direction:column;gap:14px;margin:24px 0 26px}
+  .app-features li{border-left:2px solid var(--brass-2);padding-left:14px}
+  .app-features b{display:block;color:var(--paper);font-size:1.05rem}
+  .app-features span{color:rgba(242,234,221,.78);font-size:.98rem}
+  .app-cta{display:flex;flex-wrap:wrap;gap:12px}
+
+  /* Cas cliniques / preuve (section optionnelle générique) */
+  .cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:34px}
+  .ccard{background:#fff;border:1px solid var(--line);border-top:3px solid var(--brass);border-radius:var(--r);padding:26px 24px}
+  .ccard .centry{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent-text)}
+  .ccard h3{font-family:var(--serif);font-size:1.28rem;color:var(--forest);margin:.5rem 0 .8rem;line-height:1.2}
+  .ccard .cbody{color:var(--ink-soft);font-size:1rem;line-height:1.6}
+  .ccard .cfoot{margin-top:1rem;font-family:var(--serif);font-style:italic;color:var(--accent-text);font-size:1.02rem}
+  .ccard .cread{display:inline-block;margin-top:1.1rem;font-weight:700;font-size:.92rem;color:var(--brass);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+  .ccard .cread:hover{border-color:var(--brass)}
+  .practitioners h2{color:var(--paper);font-size:clamp(1.7rem,3.6vw,2.3rem)}
+  .practitioners .wrap{text-align:center}
+  .practitioners p{color:rgba(242,234,221,.86);margin:.9rem auto 0;max-width:54ch}
+  .practitioners .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:26px}
+  .stats .wrap{text-align:center}
+  .stats h2{color:var(--paper);font-size:clamp(1.7rem,3.6vw,2.3rem)}
+  .stats .sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:22px;margin-top:24px}
+  .stats .statn{font-family:var(--serif);font-weight:600;font-size:clamp(2.4rem,6vw,3.6rem);line-height:1;color:var(--brass-2)}
+  .stats .statl{margin-top:.5rem;color:rgba(242,234,221,.85);font-size:1.02rem;max-width:22ch;margin-inline:auto}
+
   @media(max-width:760px){ .split,.about .wrap{grid-template-columns:1fr} .about .ph{margin:0 auto} }
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   :focus-visible{outline:3px solid var(--brass);outline-offset:3px;border-radius:6px}
@@ -174,11 +210,11 @@
 </header>
 
 <section class="hero">
-  <a class="hero-badge" href="https://svlbh.com" target="_blank" rel="noopener" aria-label="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH (ST5 · MyShamanFamily PRO)"><img src="assets/badge-svlbh.svg" alt="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH (ST5 · MyShamanFamily PRO)" loading="lazy" /></a>
+  <a class="hero-badge" href="https://svlbh.com" target="_blank" rel="noopener" aria-label="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH MyShamanFamily"><img src="assets/badge-svlbh.svg" alt="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH MyShamanFamily" loading="lazy" /></a>
   <div class="wrap">
     <p class="hero-credential">Praticienne certifiée ST5 · MyShamanFamily PRO — méthode SVLBH</p>
     <h1>Comprendre et libérer ce qui se répète</h1>
-    <p class="lead">Décodage transgénérationnel & <strong>chromothérapie pleine bande</strong> — au croisement de la couleur et de l'investigation des lignées, en Suisse romande.</p>
+    <p class="lead">Décodage transgénérationnel & <strong>chromothérapie pleine bande</strong> — pour <strong>les adolescents et leurs parents</strong>, et pour les jeunes adultes qui sentent qu'ils répètent un schéma familial et ne veulent pas le transmettre. En Suisse romande.</p>
     <div class="pills">
       <span class="pill">Suisse romande</span>
       <span class="pill">Certifiée ST5 SVLBH</span>
@@ -225,8 +261,11 @@
       <div class="step"><div class="v">04</div><b>Devenir autonome</b><small>S'exercer pour ne plus dépendre de l'accompagnement.</small></div>
       
     </div>
+    
   </div>
 </section>
+
+
 
 <section class="wrap" id="cours">
   <div class="split">
@@ -234,8 +273,8 @@
       <p class="eyebrow">L'accompagnement</p>
       <h2 style="color:var(--forest)">Décodage transgénérationnel & chromothérapie</h2>
       <ul class="info">
-        <li><span class="k">Où</span><span>En <strong>Suisse romande</strong> — [ville/visio à compléter].</span></li>
-        <li><span class="k">Pour qui</span><span>Pour celles et ceux chez qui un <strong>schéma se répète</strong> malgré tout ce qui a été essayé.</span></li>
+        <li><span class="k">Où</span><span><strong>À distance</strong>, depuis Fribourg — Suisse romande.</span></li>
+        <li><span class="k">Pour qui</span><span>Les <strong>adolescents et leurs parents</strong> — et les <strong>jeunes adultes</strong> qui sentent qu'ils répètent un schéma familial et ne veulent pas le transmettre.</span></li>
         <li><span class="k">Chromothérapie</span><span>Pleine bande & classique — rééquilibrage par la couleur.</span></li>
         <li><span class="k">Décodage</span><span>Investigation transgénérationnelle des lignées de Suisse.</span></li>
         <li><span class="k">Reconnaissance</span><span>Praticienne certifiée SVLBH.</span></li>
@@ -249,6 +288,8 @@
     <figure class="art"><img src="assets/decodage-chromatique-sacrum.jpg" alt="Anne Grangier — Décodage transgénérationnel & chromothérapie" /></figure>
   </div>
 </section>
+
+
 
 
 <section class="wrap" id="tarifs">
@@ -269,15 +310,17 @@
 <section class="approach" id="mon-histoire">
   <div class="wrap">
     <div class="split">
-      <figure class="art"><img src="assets/portrait.jpg" alt="Anne Grangier — [à compléter — son parcours, à ses mots]" /></figure>
+      <figure class="art"><img src="assets/portrait.jpg" alt="Anne Grangier — Après 20 ans dans le droit, j'ai suivi un autre appel" /></figure>
       <div>
         <p class="eyebrow">Mon histoire</p>
-        <h2 style="color:var(--forest)">[à compléter — son parcours, à ses mots]</h2>
-        <p style="color:var(--ink-soft);margin-top:.8rem">[à compléter — extraire son vécu de sa vitrine priv.svlbh.com / d'un entretien. NE PAS inventer. Section OBLIGATOIRE = socle de crédibilité.]</p>
+        <h2 style="color:var(--forest)">Après 20 ans dans le droit, j'ai suivi un autre appel</h2>
+        <p style="color:var(--ink-soft);margin-top:.8rem">Pendant vingt ans, j'ai exercé dans le droit — rigueur, discrétion, attention au détail. Je l'ai aimé. Puis un autre appel s'est fait entendre.</p>
+        <p style="color:var(--ink-soft);margin-top:.8rem">Aujourd'hui, je suis praticienne certifiée ST5 · MyShamanFamily PRO de la méthode SVLBH. J'accompagne, à distance depuis Fribourg, <strong>les adolescents et leurs parents</strong> — et je m'adresse aux <strong>jeunes adultes qui sentent qu'ils répètent un schéma familial</strong> et ne veulent pas le transmettre.</p>
+        <p style="color:var(--ink-soft);margin-top:.8rem">Mon travail : le décodage transgénérationnel, la chromothérapie, et une approche par le son (les « chambres qui chantent », 110 Hz). Non pas pour « défaire » le schéma, mais pour apprendre à le voir, à le nommer, à ne plus le porter en aveugle.</p>
         
-        <p style="font-family:var(--serif);font-style:italic;font-size:1.22rem;color:var(--accent-text);margin:1.4rem 0;line-height:1.4">[à compléter]</p>
+        <p style="font-family:var(--serif);font-style:italic;font-size:1.22rem;color:var(--accent-text);margin:1.4rem 0;line-height:1.4">Comprendre · libérer · rééquilibrer · devenir autonome.</p>
         <p style="color:var(--ink-soft)">Si mon histoire résonne en toi, écris-moi.</p>
-        <a class="btn btn--ghost" href="parcours.html" style="margin-top:20px">Lire mon parcours →</a>
+        
       </div>
     </div>
   </div>
@@ -290,7 +333,7 @@
       <p class="eyebrow" style="color:var(--brass-2)">Qui je suis</p>
       <h2>Anne Grangier</h2>
       <p>Praticienne certifiée <strong>ST5 · MyShamanFamily PRO</strong> de la méthode SVLBH (svlbh.com). Je pratique le décodage SVLBH au croisement de la <strong>chromothérapie</strong> et de l'<strong>investigation transgénérationnelle</strong>, en Suisse romande.</p>
-      <p>[à compléter — quelques lignes personnelles sur ton chemin et ta façon d'accompagner.]</p>
+      <p>Pendant vingt ans, j'ai exercé dans le droit — rigueur, discrétion, attention au détail. Je l'ai aimé. Puis un autre appel s'est fait entendre. Aujourd'hui, j'accompagne à distance depuis Fribourg les adolescents et leurs parents — et les jeunes adultes qui sentent qu'ils répètent un schéma familial et ne veulent pas le transmettre.</p>
       
     </div>
   </div>
@@ -302,6 +345,8 @@
     <h2 style="color:var(--forest)">Si ça te parle</h2>
   </div>
   <ul>
+    <li>Tu es parent d'un <strong>adolescent</strong> — et tu vois l'histoire familiale <strong>se rejouer d'une génération à l'autre</strong>.</li>
+    <li>Tu es un·e <strong>jeune adulte</strong> — tu sens que tu <strong>répètes un schéma familial</strong>, et tu ne veux pas le transmettre.</li>
     <li>Il y a dans ta vie un <strong>schéma, une tension, une situation qui revient</strong> — encore et encore.</li>
     <li>Tu as déjà beaucoup essayé, et pourtant ça <strong>se répète</strong>.</li>
     <li>Tu veux <strong>comprendre la racine</strong> dans tes lignées, pas seulement le symptôme.</li>
@@ -328,10 +373,30 @@
 </section>
 
 
+
+
+
+
+
+
+
+
+
+<section class="wrap safety-notice" id="cadre" style="padding-top:0">
+  <div style="background:#fff;border:1.5px solid var(--line);border-left:5px solid var(--brass);border-radius:var(--r);padding:26px 28px">
+    <p class="eyebrow">Cadre & sécurité</p>
+    <h2 style="font-family:var(--serif);color:var(--forest);font-size:1.35rem;margin:.3rem 0 .6rem">Un cadre clair</h2>
+    <p style="color:var(--ink);margin:.6rem 0"><strong>Quand un adolescent va mal, le premier interlocuteur est un professionnel de santé (médecin, psy).</strong> Mon accompagnement vient à côté ; il ne remplace jamais un suivi médical.</p>
+    <p style="color:var(--ink);margin:.6rem 0">Pour un mineur, le consentement écrit d'un parent est requis.</p>
+    
+  </div>
+</section>
+
+
 <section class="cta-band">
   <div class="wrap">
     <h2>Le premier pas, c'est un message.</h2>
-    <p>Écris-moi « oui » et je t'explique comment se passe l'accompagnement.</p>
+    <p>Écris-moi « oui » et je t'explique comment se passe l'accompagnement. Pour un mineur, le consentement écrit d'un parent est requis.</p>
     <p class="quote">« Comprendre, s'exercer, devenir autonome. »</p>
     <div class="actions">
       <a class="btn btn--wa" id="band-wa" href="#">
@@ -344,14 +409,14 @@
 </section>
 
 <footer>
-  <a href="https://svlbh.com" target="_blank" rel="noopener" aria-label="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH (ST5 · MyShamanFamily PRO)"><img src="assets/badge-svlbh.svg" alt="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH (ST5 · MyShamanFamily PRO)" width="210" loading="lazy" style="display:block;margin:0 auto 16px;max-width:210px" /></a>
+  <a href="https://svlbh.com" target="_blank" rel="noopener" aria-label="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH MyShamanFamily"><img src="assets/badge-svlbh.svg" alt="Membre du Cercle de Lumière Suisse Romande — certifiée SVLBH MyShamanFamily" width="210" loading="lazy" style="display:block;margin:0 auto 16px;max-width:210px" /></a>
   © <span id="y"></span> Anne Grangier · Chromothérapie pleine bande · Chromothérapie classique · Décodage transgénérationnel · Fribourg<br>
-  <a href="https://www.instagram.com/annegr29/" target="_blank" rel="noopener">Instagram @annegr29</a>
+  <a href="https://www.instagram.com/annegr29/" target="_blank" rel="noopener">Instagram @annegr29</a> · <a href="https://svlbh.com" target="_blank" rel="noopener">svlbh.com</a>
 </footer>
 
 <script>
   var WA = "41786297719";
-  var waText = "Bonjour Anne Grangier,%0AJe vous contacte depuis votre site.%0AJe souhaiterais des informations sur vos cours de Chromothérapie pleine bande, Chromothérapie classique & Décodage transgénérationnel.";
+  var waText = "Bonjour Anne Grangier,%0AJe vous contacte depuis votre site.%0AJe souhaiterais des informations sur l'accompagnement — décodage transgénérationnel & chromothérapie (pour un mineur, le consentement écrit d'un parent est requis).";
   var href = "https://wa.me/" + WA + "?text=" + waText;
   ["hdr-wa","hero-wa","cours-wa","band-wa"].forEach(function(id){ var el=document.getElementById(id); if(el) el.href=href; });
   document.getElementById('y').textContent = new Date().getFullYear();
